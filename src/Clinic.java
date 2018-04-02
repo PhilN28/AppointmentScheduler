@@ -74,6 +74,11 @@ public class Clinic {
 		
 	}
 	
+	//This method allows patients to book appointments with available doctors
+	//Ask the user which doctor they would like to make an appointment with, 
+		//if the doctor does not exist, use a print statement to tell them
+	//Check if the patient is currently registered with the clinic,
+	//if they are, ask for an appointment time they would like, and place their appointment time as a key, and the patient as the value
 	public void bookAppointment() {
 		boolean doctorMatch = false;
 		boolean patientMatch = false; 
